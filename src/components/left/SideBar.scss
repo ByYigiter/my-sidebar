@@ -1,0 +1,58 @@
+.side-bar{
+    background-color:rgb(184, 248, 243);
+    padding: 25%;
+
+    &_logo{
+        position: relative;
+        a{
+            font-size: 2rem;
+            color: rgb(1, 1, 78);
+
+            &::after, &::before{
+                content: '';
+                position: absolute;
+                width: 20px;
+                height: 20px;
+            }
+
+            &::before{
+                border-bottom: 5px solid rgb(195, 195, 195) ;
+                border-left: 5px solid rgb(195, 195, 195) ;
+                bottom: -10px;
+                left: -15px;
+        
+            }
+
+            &::after{
+                border-top: 5px solid rgb(195, 195, 195) ;
+                border-right: 5px solid rgb(195, 195, 195) ;
+                top: -5px;
+                right: -5px;
+            }
+        }
+    }
+
+    &_menu{
+        margin-top: 60px;
+        &_list{
+            &_item{
+                margin-bottom: 20px;
+                font-size: 20px;
+                border-bottom: 1px solid black;
+                padding: 20px 0 10px;
+                color: rgb(1, 1, 78);
+                transition: .5s;
+                a{
+                    margin-left: 15px;
+                    color: inherit;
+                }
+                &:hover{
+                    color: rgb(45, 45, 255);
+                    
+                }
+            }
+          
+        }
+    }
+}
+

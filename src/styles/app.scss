@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    &_leftside{
+            flex:1,
+
+    }
+
+    &_rightside{
+        flex:4,
+    }
+
+}
+
+.reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style-type: none;
+    }
+
+}
